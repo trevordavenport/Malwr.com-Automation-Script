@@ -19,11 +19,6 @@ Author: Trevor Davenport
 ```
 ___
 
-#### Usage ####
-![](http://i.imgur.com/IX9fc5U.png)
-
-___
-
 #### API Documentation/Overview ####
 > Post Request (File Submission)
 ![](http://i.imgur.com/sU2t1Mr.png)
@@ -33,6 +28,7 @@ ___
 > Successful Submission Page
 ![](http://i.imgur.com/8iEawDY.png)
 
+___
 
 #### Example ####
 > Example Walkthrough (exiftool.exe)
@@ -43,6 +39,9 @@ ___
 
 > Top 50 AntiVirus Results
 ![](http://i.imgur.com/RYyDaFl.png)
+
+> Embedded Screen Captures
+![](http://i.imgur.com/SFzGScg.png)
 
 > Behavior Analysis
 ![](http://i.imgur.com/tBCjDPW.png)
