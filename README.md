@@ -1,4 +1,4 @@
-Malwar.com Automation Script
+Malwr.com Automation Script
 ===========================
 > Python script integrating and expanding Malwr.com API for Automated Submission and Results
 ![](http://i.imgur.com/LEu6Vbw.png)
