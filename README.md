@@ -40,3 +40,15 @@ ___
 
 > Overall File Data
 ![](http://i.imgur.com/03Jtlkg.png)
+
+> Top 50 AntiVirus Results
+![](http://i.imgur.com/RYyDaFl.png)
+
+> Behavior Analysis
+![](http://i.imgur.com/tBCjDPW.png)
+
+> Network Analysis
+![](http://i.imgur.com/VbpOGaI.png)
+
+> Dropped Files
+![](http://i.imgur.com/teGPbBV.png)
