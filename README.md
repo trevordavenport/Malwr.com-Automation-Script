@@ -18,3 +18,10 @@ Author: Trevor Davenport
   Other Dependencies: CURL (http://curl.haxx.se/)
 ```
 ___
+
+#### API Documentation ####
+> Post Request (File Submission)
+![](http://i.imgur.com/sU2t1Mr.png)
+
+> File Submission Check
+![](http://i.imgur.com/GFPMf0X.png)
