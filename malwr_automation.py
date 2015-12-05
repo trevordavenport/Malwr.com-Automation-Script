@@ -6,39 +6,38 @@ from bs4 import BeautifulSoup
 
 
 def malwr_submission_check(submission_response):
-	'''
-	Response (JSON):
-	{ "status" : "added", "sha256" : <sha256>, "uuid" : <uuid> }
-	'''
-	try:
+    '''
+    Response (JSON):
+    { "status" : "added", "sha256" : <sha256>, "uuid" : <uuid> }
+    '''
+    try:
 
 
-	except Exception as e:
-		print e
-
+    except Exception as e:
+        print e
 
 def malwr_file_submission(API_KEY, FILE_SUBMISSION):
-	'''
-		Post Template: 'curl -F api_key=<key> -F shared=yes -F file=@/path/to/binary https://malwr.com/api/analysis/add/'
-	'''
-	try:
-		CURL    = "curl -F " + API_KEY + " -F shared=yes " + "file=" + FILE_SUBMISSION + " https://malwr.com/api/analysis/add/"
-		RET_VAL = subprocess.Popen(CURL, shell=True, stderr=subprocess.PIPE)
-		(output, err) = RET_VAL.communicate()
+    '''
+    Post Template: 'curl -F api_key=<key> -F shared=yes -F file=@/path/to/binary https://malwr.com/api/analysis/add/'
+    '''
+    try:
+        CURL    = "curl -F " + API_KEY + " -F shared=yes " + "file=" + FILE_SUBMISSION + " https://malwr.com/api/analysis/add/"
+	RET_VAL = subprocess.Popen(CURL, shell=True, stderr=subprocess.PIPE)
+	(output, err) = RET_VAL.communicate()
 
-		print "[*] Malwr.com -- Submitting File " + str(FILE_SUBMISSION) + " for Analysis."
+	print "[*] Malwr.com -- Submitting File " + str(FILE_SUBMISSION) + " for Analysis."
 
-		if (output):
-			'''
-			Successful Post Request
-			'''
-			print "[+] Successful File Submission."
-			malwr_submission_check(output)
-		else:
-			#Unsuccessful Submission
-			print "[+] Unsuccessful File Submission. Please try again." 
-	except Exception as e:
-		print e
+	if (output):
+	    '''
+   	    Successful Post Request
+	    '''
+	    print "[+] Successful File Submission."
+	    malwr_submission_check(output)
+	else:
+	    #Unsuccessful Submission
+	    print "[+] Unsuccessful File Submission. Please try again." 
+    except Exception as e:
+	print e
 
 
 def main():
