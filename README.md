@@ -33,3 +33,10 @@ ___
 > Successful Submission Page
 ![](http://i.imgur.com/8iEawDY.png)
 
+
+#### Example ####
+> Example Walkthrough (exiftool.exe)
+![](http://i.imgur.com/jBR4XTx.png)
+
+> Overall File Data
+![](http://i.imgur.com/03Jtlkg.png)
