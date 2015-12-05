@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 
 def malwr_submission_check(submission_response):
 	'''
-		Response (JSON):
-		{ "status" : "added", "sha256" : <sha256>, "uuid" : <uuid> }
+	Response (JSON):
+	{ "status" : "added", "sha256" : <sha256>, "uuid" : <uuid> }
 	'''
 	try:
 
