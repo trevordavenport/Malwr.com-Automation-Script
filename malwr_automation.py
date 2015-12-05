@@ -5,7 +5,6 @@ import optparse
 from bs4 import BeautifulSoup
 
 
-
 def malwr_submission_check(submission_response):
 	'''
 	Response (JSON):
@@ -16,9 +15,6 @@ def malwr_submission_check(submission_response):
 
 	except Exception as e:
 		print e
-
-
-
 
 
 def malwr_file_submission(API_KEY, FILE_SUBMISSION):
@@ -35,8 +31,6 @@ def malwr_file_submission(API_KEY, FILE_SUBMISSION):
 		if (output):
 			'''
 			Successful Post Request
-			Response (JSON):
-				{ "status" : "added", "sha256" : <sha256>, "uuid" : <uuid> }
 			'''
 			print "[+] Successful File Submission."
 			malwr_submission_check(output)
