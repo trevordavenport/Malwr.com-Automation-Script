@@ -16,6 +16,13 @@ Author: Trevor Davenport
                        
                        
   Other Dependencies: CURL (http://curl.haxx.se/)
+  
+  TODO (12/5/15)
+    > Develop PDF + HTML Report Functionality
+    > Finish Current Release (Lol.)
+    > Enhance Current Features
+    > Accept User Guided Input for Custom Submissions
+
 ```
 ___
 
